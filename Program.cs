@@ -10,7 +10,23 @@ namespace EmailExtraction
         {
             string path = @"C:\Training\EmailExtraction\EmailExtraction\Data\sample.txt";
             string text = ReadFile(path);
-            Console.WriteLine(text);
+
+            int counter = 0;
+            
+            /*
+            for (var i = 0; i < text.Length-13; i++)
+                //add -13 to text.Length to avoid going out of bounds 
+            {
+                if(text.Substring(i,13) == "@softwire.com")
+                {
+                    counter++;
+                }
+            }
+            Console.WriteLine(counter);
+            */
+            
+            
+            
         }
         /*start with main
          defined path to where file is 
