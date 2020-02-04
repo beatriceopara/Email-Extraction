@@ -14,7 +14,6 @@ namespace EmailExtraction
         }
         /*start with main
          defined path to where file is 
-         call own function called ReadFile
          saving its repsonse to variable called text
          then print text 
          */
